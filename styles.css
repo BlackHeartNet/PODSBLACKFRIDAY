@@ -28,8 +28,11 @@ header {
 
 .carousel {
     perspective: 1000px;
-    height: 300px; /* Defina uma altura fixa para o carrossel */
-    overflow: hidden; /* Esconde qualquer conteúdo que exceda a altura */
+    height: 300px; /* Altura fixa para o carrossel */
+    width: 100%; /* Largura do carrossel */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo */
+    overflow: hidden; /* Esconde conteúdo que excede */
 }
 
 .carousel-inner {
@@ -38,9 +41,9 @@ header {
 }
 
 img {
-    width: 100%; /* Ajusta a largura das imagens */
-    height: auto;
-    max-height: 100%; /* Limita a altura das imagens ao espaço do carrossel */
+    width: 400px; /* Largura fixa para as imagens */
+    height: auto; /* Mantém a proporção */
+    max-height: 300px; /* Limita a altura das imagens */
     border-radius: 8px;
     cursor: pointer;
 }
