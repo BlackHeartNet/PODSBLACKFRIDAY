@@ -15,9 +15,17 @@
 
 <div class="container">
     <h2>Descrição do Produto</h2>
-    <p>Experimente o Pod Ignite V50, com 5000 puffs de pura satisfação! Ideal para quem busca um sabor intenso e uma experiência de vaporização prolongada. Seu design compacto e leve torna-o perfeito para levar a qualquer lugar. Disponível em diversos sabores, o Ignite V50 é a escolha ideal para momentos de descontração.</p>
-    <div class="price">R$ 39,99</div>
+    <p>Experimente o Pod Ignite V50, com 5000 puffs de pura satisfação! Ideal para quem busca um sabor intenso e uma experiência de vaporização prolongada.</p>
+
+    <div class="price-container">
+        <div class="price" id="price">R$ 39,99</div>
+        <label for="quantity">Quantidade:</label>
+        <input type="number" id="quantity" value="1" min="1" onchange="updatePrice()">
+    </div>
+
+    <button class="buy-button" onclick="buyProduct()">Comprar</button>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
