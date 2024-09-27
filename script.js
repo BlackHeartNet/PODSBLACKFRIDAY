@@ -8,5 +8,6 @@ function updatePrice() {
 
 function buyProduct() {
     const quantity = document.getElementById('quantity').value;
-    alert(`Você comprou ${quantity} Pod(s) Ignite V50!`);
+    const flavor = document.getElementById('flavor').value;
+    alert(`Você comprou ${quantity} Pod(s) Ignite V50 de sabor ${flavor}!`);
 }
