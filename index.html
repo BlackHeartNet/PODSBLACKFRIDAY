@@ -15,12 +15,31 @@
 
 <div class="container">
     <h2>Descrição do Produto</h2>
-    <p>Experimente o Pod Ignite V50, com 5000 puffs de pura satisfação! Ideal para quem busca um sabor intenso e uma experiência de vaporização prolongada.</p>
+    <p>Experimente o Pod Ignite V50, com 5000 puffs de pura satisfação! Ideal para quem busca um sabor intenso e uma experiência de vaporização prolongada. Aqui estão alguns dos pontos positivos do Pod Ignite V50:</p>
+    <ul>
+        <li><strong>Capacidade Alta:</strong> Com 5000 puffs, você pode desfrutar do seu sabor favorito por muito mais tempo, sem a necessidade de recargas frequentes.</li>
+        <li><strong>Sabor Intenso:</strong> Formulado para proporcionar uma experiência de vaporização rica e satisfatória, com uma variedade de sabores irresistíveis.</li>
+        <li><strong>Design Compacto:</strong> O tamanho portátil do Ignite V50 permite que você o leve a qualquer lugar, tornando-o perfeito para qualquer ocasião.</li>
+        <li><strong>Fácil de Usar:</strong> Sem botões ou configurações complicadas, é só abrir e usar! Ideal para iniciantes e usuários experientes.</li>
+        <li><strong>Sem Manutenção:</strong> Descartável e pronto para uso, sem necessidade de limpeza ou manutenção, oferecendo praticidade e conforto.</li>
+        <li><strong>Opções Variadas:</strong> Disponível em diversos sabores, garantindo que você encontre a opção que mais gosta.</li>
+    </ul>
 
     <div class="price-container">
         <div class="price" id="price">R$ 39,99</div>
         <label for="quantity">Quantidade:</label>
         <input type="number" id="quantity" value="1" min="1" onchange="updatePrice()">
+        
+        <label for="flavor">Sabor:</label>
+        <select id="flavor">
+            <option value="menta">Menta</option>
+            <option value="morangos">Morangos</option>
+            <option value="uva">Uva</option>
+            <option value="cachaca">Cachaça</option>
+            <option value="melancia">Melancia</option>
+            <option value="coca-cola">Coca-Cola</option>
+            <option value="abacaxi">Abacaxi</option>
+        </select>
     </div>
 
     <div class="button-container">
