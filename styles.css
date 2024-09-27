@@ -26,20 +26,41 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.image-carousel {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-carousel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 .price-container {
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin: 20px 0;
 }
 
 .price {
     font-size: 1.5em;
     color: #28a745;
-    margin-right: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.quantity-flavor-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .quantity-input {
-    width: 80px; /* Ajuste a largura conforme necessário */
+    width: 80px;
     padding: 10px;
     font-size: 1em;
     border: none;
@@ -51,7 +72,7 @@ header {
 
 .quantity-input:focus {
     outline: none;
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Azul ao focar */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
 select {
@@ -60,40 +81,41 @@ select {
     border: none;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    margin-right: 10px;
+    margin-left: 10px;
     transition: box-shadow 0.2s;
 }
 
 select:focus {
     outline: none;
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Azul ao focar */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
 .button-container {
     display: flex;
-    justify-content: center; /* Centraliza o botão */
-    margin-top: 20px; /* Espaçamento acima do botão */
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.buy-button {
-    padding: 15px 30px; /* Ajusta o padding do botão */
-    font-size: 1.2em; /* Tamanho maior para o texto do botão */
+.buy-button, .next-image {
+    padding: 15px 30px;
+    font-size: 1.2em;
     color: #fff;
-    background-color: #007bff; /* Azul para o fundo do botão */
+    background-color: #007bff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+    margin-right: 10px;
 }
 
-.buy-button:hover {
-    background-color: #0056b3; /* Azul mais escuro no hover */
+.buy-button:hover, .next-image:hover {
+    background-color: #0056b3;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-.buy-button:active {
-    transform: translateY(4px); /* Efeito 3D ao clicar */
+.buy-button:active, .next-image:active {
+    transform: translateY(4px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
