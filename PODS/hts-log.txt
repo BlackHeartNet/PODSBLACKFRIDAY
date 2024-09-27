@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 27 Sep 2024 16:30:24 at https://tabakkatabacaria.com/produto/pod-descartavel-ignite-v50-5000-puffs/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" https://tabakkatabacaria.com/produto/pod-descartavel-ignite-v50-5000-puffs/ -O1 "C:\Users\user\Desktop\BLACK\PODS" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:31:10	Warning: 	Retry after error -4 (No data (connection closed)) at link https://tabakkatabacaria.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0 (from https://tabakkatabacaria.com/produto/pod-descartavel-ignite-v50-5000-puffs/)
+16:31:10	Warning: 	Retry after error -4 (No data (connection closed)) at link https://tabakkatabacaria.com/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1725632304 (from https://tabakkatabacaria.com/produto/pod-descartavel-ignite-v50-5000-puffs/)
+16:31:10	Warning: 	Retry after error -4 (No data (connection closed)) at link https://tabakkatabacaria.com/wp-content/plugins/woo-bought-together-premium/assets/js/frontend.js?ver=5.1.1 (from https://tabakkatabacaria.com/produto/pod-descartavel-ignite-v50-5000-puffs/)
+16:31:10	Error: 	"Not Found" (404) at link https://tabakkatabacaria.com/produto/pod-descartavel-ignite-v50-5000-puffs/POST (from https://connect.facebook.net/en_US/fbevents.js)
+16:31:10	Error: 	"Not Found" (404) at link https://tabakkatabacaria.com/produto/pod-descartavel-ignite-v50-5000-puffs/schema.org/ (from https://connect.facebook.net/en_US/fbevents.js)
+16:31:10	Error: 	"Not Found" (404) at link https://tabakkatabacaria.com/produto/pod-descartavel-ignite-v50-5000-puffs/b.resolvedLink (from https://connect.facebook.net/en_US/fbevents.js)
+16:31:10	Error: 	"Not Found" (404) at link https://tabakkatabacaria.com/signals/iwl.js (from https://connect.facebook.net/en_US/fbevents.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 47 seconds : 126 links scanned, 118 files written (4297785 bytes overall) [2028353 bytes received at 43156 bytes/sec], 3731476 bytes transferred using HTTP compression in 101 files, ratio 23%, 12.8 requests per connection
+(4 errors, 3 warnings, 0 messages)

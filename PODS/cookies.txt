@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+tabakkatabacaria.com	TRUE	/	FALSE	1999999999	PHPSESSID	708bb96796ea45dbd0c9913340509a21
+tabakkatabacaria.com	TRUE	/	FALSE	1999999999	woocommerce_recently_viewed	5249
+tiktok.com	TRUE	/	FALSE	1999999999	_ttp	2mfR3U0KULf6Xu2q0nMPbrL2FZV
+analytics.tiktok.com	TRUE	/	FALSE	1999999999	SameSite	None
+
