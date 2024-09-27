@@ -53,15 +53,16 @@ header {
     padding: 15px 30px; /* Ajusta o padding do botão */
     font-size: 1.2em; /* Tamanho maior para o texto do botão */
     color: #fff;
-    background-color: #28a745;
+    background-color: #007bff; /* Azul para o fundo do botão */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
 }
 
 .buy-button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
