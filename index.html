@@ -5,45 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pod Ignite V50</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        img {
-            max-width: 100%;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-        h1 {
-            font-size: 2.5em;
-        }
-        p {
-            line-height: 1.6;
-        }
-        .price {
-            font-size: 1.5em;
-            color: #28a745;
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -52,21 +14,13 @@
 </header>
 
 <div class="container">
-    <img id="podImage" src="imagepod1.jpeg" alt="Pod Ignite V50" onclick="toggleImage()">
+    <img id="podImage" src="imagepod1.jpeg" alt="Pod Ignite V50">
     <h2>Descrição do Produto</h2>
     <p>Experimente o Pod Ignite V50, com 5000 puffs de pura satisfação! Ideal para quem busca um sabor intenso e uma experiência de vaporização prolongada. Seu design compacto e leve torna-o perfeito para levar a qualquer lugar. Disponível em diversos sabores, o Ignite V50 é a escolha ideal para momentos de descontração.</p>
     <div class="price">R$ 39,99</div>
 </div>
 
-<script>
-    let currentImage = 1;
-
-    function toggleImage() {
-        const imgElement = document.getElementById('podImage');
-        currentImage = currentImage === 1 ? 2 : 1;
-        imgElement.src = currentImage === 1 ? 'imagepod1.jpeg' : 'imagepod2.jpeg';
-    }
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
