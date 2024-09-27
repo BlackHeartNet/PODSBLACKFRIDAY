@@ -96,7 +96,7 @@ select:focus {
     margin-top: 20px;
 }
 
-.buy-button, .next-image {
+.buy-button {
     padding: 15px 30px;
     font-size: 1.2em;
     color: #fff;
@@ -106,15 +106,14 @@ select:focus {
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
-    margin-right: 10px;
 }
 
-.buy-button:hover, .next-image:hover {
+.buy-button:hover {
     background-color: #0056b3;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-.buy-button:active, .next-image:active {
+.buy-button:active {
     transform: translateY(4px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
