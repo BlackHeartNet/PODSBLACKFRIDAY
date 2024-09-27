@@ -13,10 +13,14 @@ function buyProduct() {
     alert(`Você comprou ${quantity} Pod(s) Ignite V50 de sabor ${flavor}!`);
 }
 
-function nextImage() {
+// Função para mudar as imagens automaticamente
+function changeImage() {
     currentImageIndex++;
     if (currentImageIndex > 9) {
         currentImageIndex = 1; // Reinicia o índice após a última imagem
     }
     document.getElementById('productImage').src = `imagepod${currentImageIndex}.jpeg`;
 }
+
+// Mudar imagem a cada 3 segundos
+setInterval(changeImage, 3000);
