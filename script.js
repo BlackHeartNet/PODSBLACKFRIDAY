@@ -1,5 +1,4 @@
 const unitPrice = 39.99;
-let currentImageIndex = 1;
 
 function updatePrice() {
     const quantity = document.getElementById('quantity').value;
@@ -15,12 +14,14 @@ function buyProduct() {
 
 // Função para mudar as imagens automaticamente
 function changeImage() {
-    currentImageIndex++;
-    if (currentImageIndex > 9) {
-        currentImageIndex = 1; // Reinicia o índice após a última imagem
-    }
-    document.getElementById('productImage').src = `imagepod${currentImageIndex}.jpeg`;
+    let currentImageIndex = 1;
+    setInterval(() => {
+        currentImageIndex++;
+        if (currentImageIndex > 9) {
+            currentImageIndex = 1; // Reinicia o índice após a última imagem
+        }
+        document.getElementById('productImage').src = `imagepod${currentImageIndex}.jpeg`;
+    }, 3000);
 }
 
-// Mudar imagem a cada 3 segundos
-setInterval(changeImage, 3000);
+changeImage(); // Iniciar o carrossel
