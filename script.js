@@ -1,19 +1,9 @@
-let currentImage = 1;
-const totalImages = 2;
+let currentImage = 0;
 
 function toggleImage() {
-    const imgElement1 = document.getElementById('podImage');
-    const imgElement2 = document.getElementById('podImage2');
-    
-    if (currentImage === 1) {
-        imgElement1.style.display = 'none';
-        imgElement2.style.display = 'block';
-        currentImage = 2;
-    } else {
-        imgElement1.style.display = 'block';
-        imgElement2.style.display = 'none';
-        currentImage = 1;
-    }
+    const carouselInner = document.querySelector('.carousel-inner');
+    currentImage = (currentImage + 1) % 2; // Alterna entre 0 e 1
+    carouselInner.style.transform = `rotateY(${currentImage * 180}deg)`;
 }
 
 setInterval(toggleImage, 3000); // Troca de imagem a cada 3 segundos
