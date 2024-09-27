@@ -27,17 +27,20 @@ header {
 }
 
 .carousel {
+    perspective: 1000px;
+    height: 400px;
+}
+
+.carousel-inner {
     display: flex;
-    overflow: hidden;
-    position: relative;
+    transition: transform 1s ease;
 }
 
 img {
     max-width: 100%;
-    max-height: 400px; /* Limite a altura da imagem */
+    height: auto;
     border-radius: 8px;
     cursor: pointer;
-    transition: opacity 1s ease-in-out;
 }
 
 h1 {
