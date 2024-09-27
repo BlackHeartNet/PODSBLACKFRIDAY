@@ -32,7 +32,7 @@ header {
 }
 
 .image-carousel img {
-    max-width: 300px; /* Tamanho máximo das imagens */
+    max-width: 100px; /* Tamanho máximo das imagens ajustado para 100px */
     height: auto;
     border-radius: 8px;
 }
