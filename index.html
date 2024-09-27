@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pod Descartável</title>
+    <title>Pod Ignite V50</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -30,6 +30,7 @@
         img {
             max-width: 100%;
             border-radius: 8px;
+            cursor: pointer;
         }
         h1 {
             font-size: 2.5em;
@@ -47,15 +48,25 @@
 <body>
 
 <header>
-    <h1>Pod Descartável</h1>
+    <h1>Pod Ignite V50</h1>
 </header>
 
 <div class="container">
-    <img src="https://example.com/imagem-pod.jpg" alt="Pod Descartável">
+    <img id="podImage" src="imagepod1.jpeg" alt="Pod Ignite V50" onclick="toggleImage()">
     <h2>Descrição do Produto</h2>
-    <p>Experimente o nosso novo Pod Descartável, a escolha perfeita para quem busca praticidade e sabor! Com uma variedade de sabores irresistíveis e design elegante, ele é ideal para qualquer ocasião. Sinta a liberdade de vaporizar onde e quando quiser, sem complicações.</p>
+    <p>Experimente o Pod Ignite V50, com 5000 puffs de pura satisfação! Ideal para quem busca um sabor intenso e uma experiência de vaporização prolongada. Seu design compacto e leve torna-o perfeito para levar a qualquer lugar. Disponível em diversos sabores, o Ignite V50 é a escolha ideal para momentos de descontração.</p>
     <div class="price">R$ 39,99</div>
 </div>
+
+<script>
+    let currentImage = 1;
+
+    function toggleImage() {
+        const imgElement = document.getElementById('podImage');
+        currentImage = currentImage === 1 ? 2 : 1;
+        imgElement.src = currentImage === 1 ? 'imagepod1.jpeg' : 'imagepod2.jpeg';
+    }
+</script>
 
 </body>
 </html>
